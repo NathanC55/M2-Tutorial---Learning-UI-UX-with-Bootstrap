@@ -452,7 +452,63 @@
     </section>
 
     <!-- contact form -->
+    <section id="contact">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Get in Touch</h2>
+          <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+        </div>
 
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-6">
+            <form action="">
+              <label for="email" class="form-label">Email Address:</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                  </svg>
+                </span>
+                <input type="email" class="form-control" id="email" placeholder="E.g.mario@example.com">
+              </div>
+              
+
+              <label for="name" class="form-label">Name:</label>
+              <div class="input-group mb-4">
+                <span class="input-group-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                  </svg>
+                </span>
+                <input type="text" class="form-control" id="name" placeholder="e.g Mario">
+
+              </div>
+              
+              <label for="subject" class="form-label">What is your question about?</label>
+              <div class="input-group mb-4"><span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-dots-fill" viewBox="0 0 16 16">
+                <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+              </svg></span>
+                <select class="form-select" id="subject" class="form-subject">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="content">Content query</option>
+                <option value="other">Other query</option>
+              </select></div>
+              
+
+              
+              <div class="form-floating mb-4 mt-5">
+                <textarea name="" id="query" class="form-control" style="height: 140px;">
+                </textarea>
+                <label for="query" class="form-label">Your query...</label>
+              </div>
+              <div class="mb-4 text-center">
+                <button type="button" class="btn btn-secondary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- get updates / modal trigger -->
 
     <script
